@@ -1,0 +1,9 @@
+table_add fd_table to_port_action 172.16.0.4/32 => 1
+table_add fd_table to_port_action 192.168.0.5/32 => 2
+table_add fd_table to_port_action 10.0.0.6/32 => 3
+table_add switch_table set_switchid 172.16.0.1/32 => 1
+table_add switch_table set_switchid 192.168.0.2/32 => 1
+table_add switch_table set_switchid 10.0.0.3/32 => 1
+table_add switch_table set_switchid 172.16.0.7/32 => 3
+table_add switch_table set_switchid 192.168.0.8/32 => 3
+table_add switch_table set_switchid 10.0.0.9/32 => 3

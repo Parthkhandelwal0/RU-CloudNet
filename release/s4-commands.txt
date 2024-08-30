@@ -1,0 +1,6 @@
+table_add color_table add_color 1 => 
+table_add color_table add_color 2 => 
+table_add color_table add_color 3 => 
+table_add red_table drop_action 2 => 
+meter_array_set_rates customMeter 0.000001:1 0.000002:1
+
